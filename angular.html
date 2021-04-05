@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>
+            Angularjs
+        </title>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+<body>
+<div ng-app="myApp" ng-controller="arthCtrl">
+First Number:<input type="text" ng-model="val1">
+<br>
+Second Number:<input type="text" ng-model="val2">
+<br>
+The result is :{{ val3 }}
+<br>
+<br>
+<button ng-click="add()" > Addition</button>
+<button ng-click="mul()" > Multiplication</button>
+<button ng-click="sub()" >Substraction</button>
+<button ng-click="divi()" > Division</button>
+
+</div>
+
+<script>
+var app=angular.module("myApp",[]);
+app.controller("arthCtrl",function($scope){
+$scope.val1=0;
+$scope.val2=0;
+$scope.val3=0;
+$scope.add=function(){
+$scope.val3=Number($scope.val1)+Number($scope.val2);
+};
+$scope.sub=function(){
+$scope.val3=Number($scope.val1)-Number($scope.val2);
+};
+$scope.mul=function(){
+$scope.val3=$scope.val1*$scope.val2;
+};
+$scope.divi=function(){
+$scope.val3=$scope.val1/$scope.val2;
+};
+});
+</script>
+</body>
+</html>

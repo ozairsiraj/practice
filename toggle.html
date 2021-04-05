@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Toggle
+    </title>
+<script src="jquery-3.5.1.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
+$("#toggle").click(function(){
+    $("p").toggle();
+  });
+});
+</script>
+</head>
+<body>
+
+<p>This is an example to demonstrate Hide, Show and Toggle.</p>
+
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+<button id="toggle">Toggle</button>
+
+</body>
+</html>

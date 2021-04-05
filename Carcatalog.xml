@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE carcatalog SYSTEM "catalog.xsd">
+<?xml-stylesheet type = "text/css" href = "cars.css"?>
+<carcatalog>
+	 <car>
+	 	<make>Maruthi</make>
+	 	<model>800</model>
+	 	<year>2003</year>
+	 	<colour>Moonlight Silver</colour>
+	 	<engine>
+	 		<No_of_cylinders>6</No_of_cylinders>
+	 		<Fuel_system>injected</Fuel_system>
+	 	</engine>
+	 	<Number_of_doors>4</Number_of_doors>
+	 	<transmission_type>manual</transmission_type>
+	 	<accessories>
+	 		<Radio>false</Radio>
+	 		<Air_conditioning>false</Air_conditioning>
+	 		<Power_windows>false</Power_windows>
+	 		<Power_steering>false</Power_steering>
+	 		<Power_breaks>false</Power_breaks>
+	 	</accessories>
+	 </car>
+ </carcatalog>

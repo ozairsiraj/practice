@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>BestBuy Supermarket bill</title></head>
+<body bgcolor="#E6E6FA">
+<center><h1>BestBuy Supermarket &copy </h1></center>
+<center> 13-4/19, near M.J road, Hyderabad-500008.</center>
+<form action="/action_page.php">
+  First name: <input type="text" name="fname"><br><br>
+  Last name: <input type="text" name="lname"><br><br>
+  Mobile number: <input type="text" name="mname"><br><br>
+  Email. Id: <input type="email" name="ename"><br><br>
+  Address:<br>
+<textarea rows="5" cols="50"></textarea><br><br>
+Purchasable items:<br>
+<select name="items" size="5" multiple>
+<option value="Eggs">Eggs</option>
+<option value="Amul Butter">Amul Butter</option>
+<option value="Bread">Bread</option>
+<option value="Noodles">Noodles</option>
+<option value="Fruits">Fruits</option>
+</select><br><br>
+Total amount: <input type="text" name="amt"><br>
+Payment option:<br>
+<input type="radio" name="pay" value="cod" checked>Cash on Delivery<br>
+<input type="radio" name="pay" value="debit">Debit card<br>
+<input type="radio" name="pay" value="credit">Credit card <br>
+<input type="reset" value="Reset"><input type="submit" value="Submit">
+</form>
+</body>
+</html>
